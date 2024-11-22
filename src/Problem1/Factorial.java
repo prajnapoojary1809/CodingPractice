@@ -1,5 +1,5 @@
 package Problem1;
-public class factorial {
+public class Factorial {
     public static void main(String []args){
         int n=3;
         if(n<0)

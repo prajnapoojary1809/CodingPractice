@@ -6,13 +6,13 @@ public class Factorial {
         {
             System.out.println("Enter a positive Integer");
         }
-        int result=fact(n);
-        System.out.println("factorial of " +n+" is: "+result);
-    }
-    public static int fact(int n){
-        if(n==1||n==0){
-            return 1;
+            int result=fact(n);
+            System.out.println("factorial of " +n+" is: "+result);
         }
-        return n*fact(n-1);
+        public static int fact(int n){
+            if(n==1||n==0){
+                return 1;
+            }
+            return n*fact(n-1);
+        }
     }
-}
